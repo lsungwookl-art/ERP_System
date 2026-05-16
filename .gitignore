@@ -1,9 +1,8 @@
 # ========================
 # 민감 정보 (절대 커밋 금지)
 # ========================
-backend/src/main/resources/application.yml
-backend/src/main/resources/application-*.yml
-!backend/src/main/resources/application.yml.example
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-secret.yml
 *.env
 .env*
 secrets/
